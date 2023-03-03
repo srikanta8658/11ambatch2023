@@ -8,8 +8,8 @@ vi /etc/ansible/ansible.cfg
 ALL NODES (MAIN, DEV AND TEST NODES)
 useradd ansible
 passwd ansible
-visudo
-vim /etc/ssh/sshd_config
+visudo         100th line
+vim /etc/ssh/sshd_config     63rd line
 systemctl restart sshd
 systemctl status sshd
 su - ansible
